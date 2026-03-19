@@ -1,0 +1,1 @@
+This is Ethan's and Freddys solutions to the Project Euler problems.
