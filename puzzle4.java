@@ -8,6 +8,7 @@ public class puzzle4 {
         int y = -1;
         int max = -1;
         while (a < 1000) {
+            b = a;
             while (b < 1000) {
                 if (isPalindromic(a * b)) {
                     if (a * b > max) {
@@ -19,7 +20,6 @@ public class puzzle4 {
                 b++;
             }
             a++;
-            b = 100;
         }
         System.out.printf("%d =   %d  * %d \n", max, x, y);
 
