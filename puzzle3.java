@@ -18,7 +18,8 @@ public class puzzle3 {
             }
         }
 
-        if (n > 2) {
+        // What is left over is a prime
+        if (n > 2) { 
             maxPrime = n;
         }
 
